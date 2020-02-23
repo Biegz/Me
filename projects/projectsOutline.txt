@@ -1,0 +1,13 @@
+Projects List:
+	-SpeedSpot
+	-NileAdventure.com
+	-MoleculeMovies.com
+	-MetroMapMaker
+	-Owlz
+	-MipsHack
+
+Coming Soon:
+	-CopyCatcher
+	-GoldenRoad (allow people to log good longboard skate spots (private and public)) (React Native)
+	-BookColorPallette (Website)
+	-GymSocialApp (React Native)
