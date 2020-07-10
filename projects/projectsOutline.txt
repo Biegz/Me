@@ -1,5 +1,5 @@
 Projects List:
-	-SpeedSpot
+	-Speedy Spot
 	-NileAdventure.com
 	-MoleculeMovies.com
 	-MetroMapMaker
