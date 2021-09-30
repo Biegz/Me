@@ -1,143 +1,43 @@
 <!DOCTYPE html>
-<!--
-	Austin's Portfolio
--->
-<html>
-
+<html lang="en">
 <head>
-  <title>Austin's Portfolio</title>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-  <link rel="stylesheet" href="assets/css/main.css" />
-  <noscript>
-    <link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Austin Biegler | Software Developer</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+<body style="background-color:#eeefe9;">
+    <div class="header">
+        <h1>Hi, my name is<br></h1>
+        <a href="about.html"><h1 id="name">Austin Biegler.</h1></a>
+        <h3>I'm a software developer based in San Francisco. Currently doing iOS things at <a href="https://www.wutchapp.com/"><span id="wutch">Wutch.</span></a></h3>
+        <a href="https://github.com/Biegz"><img src="assets/icons/png/github-circle.png" alt=""></a>
+        <a href="https://www.linkedin.com/in/austin-biegler/"><img src="assets/icons/png/linkedin-circle.png" alt=""></a>
+        <a href="https://drive.google.com/file/d/1srbm1oPHchSDcod5DL-wHfkUJ7FJv5nt/view?usp=sharing"><img id="doc" src="assets/icons/png/doc-dark.png" alt=""></a>
+        <br>
+        <div id="email-row"><a href="mailto: austindbiegler@gmail.com"><h3 id="email"><img id="env" src="assets/icons/png/env-dark.png" alt="">austindbiegler@gmail.com</h3></a></div>
+    </div>
 
-<body class="is-preload">
-  <!-- Page Wrapper -->
-  <div id="page-wrapper">
-
-    <!-- Banner -->
-    <section id="banner">
-      <div class="inner">
-        <h2>Austin Biegler</h2>
-        <p>
-          Stony Brook University<br />Bachelor of Computer Science<br />2021
-        </p>
-      </div>
-    </section>
-
-    <!-- Wrapper -->
-    <section id="wrapper">
-      <!-- One -->
-      <section id="one" class="wrapper spotlight style1">
-        <div class="inner">
-          <a href="#" class="image"><img src="images/3.png" alt="" width="50%" height="50%" /></a>
-          <div class="content">
-            <h2 class="major">A Little About Me.</h2>
-            <p>
-              I am a student at Stony Brook University majoring in Computer
-              Science. I have a passion for technology and I'm always excited to learn
-              new things and meet new people.
-            </p>
-          </div>
+    <div class="projects">
+        <div class="project">
+            <a href="wutch.html"><img src="assets/tiles/wutch_tile.png" alt=""></a>
         </div>
-      </section>
-
-      <!-- Projects (Four currently in this section) -->
-      <section id="four" class="wrapper alt style1">
-        <div class="inner">
-          <h2 class="major">Projects</h2>
-          <section class="features">
-
-            <!--  Speedy Spot -->
-            <article>
-              <a href="speedySpot.html"><img src="projects/projectImages/SpeedySpot/logo.png" class="image"></a>
-              <h3 class="major">Speedy Spot</h3>
-              <p>
-                Mobile application that aims to alleviate parking congestion on Stony Brook University's campus.
-              </p>
-              <a href="speedySpot.html" class="special">More info</a>
-            </article>
-
-            <!--  Nile Adventure Gear -->
-            <article>
-              <a href="nile.html" class="image"><img src="projects/projectImages/NileAdventure/newNileLogo.png" alt="" /></a>
-              <h3 class="major">Nile Adventure Gear</h3>
-              <p>
-                Mock database and website to shop for adventure gear.
-              </p>
-              <a href="nile.html" class="special">More info</a>
-            </article>
-
-            <!--  METRO MAP MAKER -->
-            <article>
-              <a href="metro.html"><img src="projects/projectImages/MetroMapMaker/p6.jpeg" class="image"></a>
-              <h3 class="major">Metro Map Maker
-                <a class="btn" onclick="openModal()"></a>
-              </h3>
-              <p>
-                Metro map creator and editing application.
-              </p>
-              <a href="metro.html" class="special">More info</a>
-            </article>
-
-          <!--  Molecule Movies -->
-          <article>
-            <a href="moleculeMovies.html" class="image"><img src="projects/projectImages/MoleculeMovies/logo.png" alt="" /></a>
-            <h3 class="major">Molecule Movies</h3>
-            <p>
-              Database and website to browse movies.
-            </p>
-            <a href="moleculeMovies.html" class="special">More info</a>
-          </article>
-
-
-
-          </section>
-
-          <ul class="actions">
-            <li><a href="allProjects.html" class="button">View More Projects</a></li>
-          </ul>
+        <div class="project">
+            <a href="packmap.html"><img src="assets/tiles/packmap_tile.png" alt=""></a>
         </div>
-      </section>
-    </section>
-
-
-
-    <!-- Footer -->
-    <section id="footer">
-      <div class="inner">
-        <h2 class="major">Get in touch</h2>
-        <p>
-          Feel free to contact me.  
-        </p>
-
-        <ul class="contact">
-          <li class="icon solid fa-phone">
-            <a href="tel://1-631-716-5162">(631)716-5162</a>
-          <a href="mailto: austindbiegler@gmail.com"><li class="icon solid fa-envelope">austindbiegler@gmail.com</li></a>
-          <li class="icon brands fa-linkedin">
-            <a href="https://www.linkedin.com/in/austin-biegler/">linkedin.com/in/austin-biegler/</a>
-          </li>
-          <li class="icon brands fa-github">
-            <a href="https://github.com/Biegz">github.com/Biegz</a>
-          </li>
-          <li class="icon brands fa-google-drive">
-            <a href="https://drive.google.com/file/d/1134oSIlxkZqhs6yhAmAPzpbXcPjT0m8u/view?usp=sharing">My Resume</a>
-          </li>
-        </ul>
-      </div>
-    </section>
-  </div>
-
-  <!-- Scripts -->
-  <script src="assets/js/jquery.min.js"></script>
-  <script src="assets/js/jquery.scrollex.min.js"></script>
-  <script src="assets/js/browser.min.js"></script>
-  <script src="assets/js/breakpoints.min.js"></script>
-  <script src="assets/js/util.js"></script>
-  <script src="assets/js/main.js"></script>
+        <div class="project">
+            <a href="rcd.html"><img src="assets/tiles/rcd.png" alt=""></a>
+        </div>
+        <div class="project">
+            <a href="speedyspot.html"><img src="assets/tiles/speedyspot.png" alt=""></a>
+        </div>
+        <div class="project" style="padding-bottom: 15%;">
+            <a href="nile.html"><img src="assets/tiles/nile.png" alt=""></a>
+        </div>
+    </div>
+    <!-- <div>
+        <hr class="solid">
+    </div> -->
 </body>
 
 </html>
